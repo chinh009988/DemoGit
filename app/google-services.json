@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "338964845014",
+    "firebase_url": "https://managefood-8ae7b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "managefood-8ae7b",
+    "storage_bucket": "managefood-8ae7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338964845014:android:c58297df3bbab2e96ad477",
+        "android_client_info": {
+          "package_name": "com.example.managefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338964845014-9g8ljkhlj9jebihs8hsr5njdpih9bkiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKHmjwdKt-0aiuu38dMDhrxNMPq5JTzJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338964845014-9g8ljkhlj9jebihs8hsr5njdpih9bkiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

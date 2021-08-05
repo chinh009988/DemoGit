@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:src="@drawable/food" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_marginTop="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_normal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:hint="Email"
+            android:padding="@dimen/margin_normal"
+            android:textSize="@dimen/text_size_large" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:hint="PassWord"
+            android:inputType="textPassword"
+            android:padding="@dimen/margin_normal"
+            android:textSize="@dimen/text_size_large" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xlarge"
+            android:text="Remember me"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/butonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xxlarge"
+            android:layout_marginRight="@dimen/padding_xxlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:text="SIGN IN"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/butonSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/padding_xxlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xxlarge"
+            android:text="Don't have an account?"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/buttonforget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/padding_xxlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xxlarge"
+            android:text="Forgot your password?"
+            android:textSize="@dimen/text_size_normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

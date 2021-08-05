@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ManageFood</string>
+    <dimen name="margin_xxxlarge">32dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_tiny">8dp</dimen>
+    <dimen name="margin_small_tiny">6dp</dimen>
+    <dimen name="top_margin">8dp</dimen>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+</resources>

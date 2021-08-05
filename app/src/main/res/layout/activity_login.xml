@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewTitleChangeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/green_text"
+            android:textSize="@dimen/text_size_xlarge" />
+
+
+        <EditText
+            android:id="@+id/llemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/padding_tiny_small"
+            android:textSize="@dimen/text_size_large" />
+
+
+        <EditText
+            android:id="@+id/llpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/padding_tiny_small"
+            android:textSize="@dimen/text_size_large" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/butonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xxlarge"
+            android:layout_marginRight="@dimen/padding_xxlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:text="Login"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_small"
+            android:gravity="center"
+            android:text="OR"
+            android:textSize="@dimen/text_size_large" />
+
+        <Button
+            android:id="@+id/butonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xxlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xxlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:text="Facebook Signup"
+            android:textSize="@dimen/text_size_large" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".dialog_forgot">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:src="@drawable/lock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_xlarge"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:layout_marginRight="@dimen/padding_xlarge"
+        android:gravity="center"
+        android:hint="Quên mật khẩu? Bạn nhập email để đổi lại mật khẩu"
+        android:padding="@dimen/margin_normal"
+        android:textSize="@dimen/text_size_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:layout_marginRight="@dimen/padding_normal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/llemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xlarge"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_xlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:hint="Email"
+            android:padding="@dimen/margin_normal"
+            android:textSize="@dimen/text_size_large" />
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/llpassword"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="@dimen/padding_xlarge"-->
+        <!--            android:layout_marginTop="@dimen/padding_normal"-->
+        <!--            android:layout_marginRight="@dimen/padding_xlarge"-->
+        <!--            android:background="@drawable/bg_dialog_button"-->
+        <!--            android:hint="Password"-->
+        <!--            android:inputType="textPassword"-->
+        <!--            android:padding="@dimen/margin_normal"-->
+        <!--            android:textSize="@dimen/text_size_large" />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttoncancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_xlarge"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_weight="1"
+                android:text="CANCLE" />
+
+            <Button
+                android:id="@+id/buttonchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_xlarge"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_xlarge"
+                android:layout_weight="1"
+                android:text="SEND" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

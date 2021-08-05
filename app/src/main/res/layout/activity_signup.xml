@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/padding_large"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mask" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:orientation="vertical"
+
+            >
+
+
+
+            <EditText
+                android:id="@+id/llemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_xlarge"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_xlarge"
+                android:background="@drawable/bg_dialog_button"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/llpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_xlarge"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_xlarge"
+                android:background="@drawable/bg_dialog_button"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/margin_normal"
+                android:textSize="@dimen/text_size_large" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_xxlarge"
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginRight="@dimen/padding_xxlarge"
+            android:background="@drawable/bg_dialog_button"
+            android:text="Signup"
+            android:textSize="@dimen/text_size_large" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center"
+        android:layout_marginLeft="@dimen/padding_xxlarge"
+        android:layout_marginTop="@dimen/padding_xxxlarge"
+        android:layout_marginRight="@dimen/padding_xxlarge"
+        android:layout_marginBottom="10dp"
+        android:text="GOOD FOOD | Ứng dụng đặt đồ ăn 24/7"
+        android:textSize="@dimen/text_size_normal" />
+
+</LinearLayout>

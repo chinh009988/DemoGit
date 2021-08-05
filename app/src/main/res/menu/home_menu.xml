@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+        <item
+
+            android:id="@+id/addFood"
+            android:title="Quản trị viên" />
+        <item
+
+            android:id="@+id/cart"
+            android:title="Giỏ hàng" />
+        <item
+
+            android:id="@+id/order"
+            android:title="Đơn hàng" />
+
+        <item
+            android:id="@+id/changePass"
+            android:title="Đổi mật khẩu" />
+        <item
+            android:id="@+id/logOut"
+            android:title="Đăng xuất" />
+
+
+</menu>
